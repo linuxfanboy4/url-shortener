@@ -2,8 +2,6 @@
 
 Quantum Link is a sophisticated URL shortener built with Flask, SQLAlchemy, and QR code generation capabilities. It provides a seamless experience for creating short URLs, managing custom aliases, and tracking analytics. The application is designed with a modern, responsive UI and advanced features such as QR code generation and detailed click statistics.
 
----
-
 ## Features
 
 1. **URL Shortening**:
@@ -31,8 +29,6 @@ Quantum Link is a sophisticated URL shortener built with Flask, SQLAlchemy, and 
 6. **Copy to Clipboard**:
    - Easily copy shortened URLs to the clipboard with a single click.
 
----
-
 ## Installation
 
 To set up Quantum Link on your local machine, follow these steps:
@@ -56,8 +52,6 @@ To set up Quantum Link on your local machine, follow these steps:
 
 4. **Access the Application**:
    Open your browser and navigate to `http://127.0.0.1:5000` to use Quantum Link.
-
----
 
 ## Usage
 
@@ -86,8 +80,6 @@ To set up Quantum Link on your local machine, follow these steps:
    - View all shortened URLs, their original links, click counts, and creation dates.
    - Sort URLs by creation date for better organization.
 
----
-
 ## Code Structure
 
 - **Flask Application**:
@@ -106,23 +98,17 @@ To set up Quantum Link on your local machine, follow these steps:
   - HTML templates are rendered using Flask's `render_template_string` function.
   - The UI is styled with modern CSS, including gradients, glass-morphism effects, and responsive design.
 
----
-
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to Quantum Link, follow these steps:
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
-3. Submit a pull request with a detailed description of your changes.
-
----
+3. Submit a pull request with a detailed description of your change
 
 ## License
 
 Quantum Link is open-source software licensed under the MIT License. See the LICENSE file for more details.
-
----
 
 ## Support
 
